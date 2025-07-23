@@ -1,0 +1,49 @@
+{
+    "exchanges": {
+        "binance": {
+            "api_key": "",
+            "secret": "",
+            "sandbox": true
+        },
+        "kucoin": {
+            "api_key": "",
+            "secret": "",
+            "passphrase": "",
+            "sandbox": true
+        }
+    },
+    "trading_pairs": [
+        "BTC/USDT",
+        "ETH/USDT",
+        "BNB/USDT",
+        "ADA/USDT",
+        "DOT/USDT",
+        "BTC/ETH",
+        "BTC/BNB",
+        "ETH/BNB",
+        "ADA/BTC",
+        "DOT/BTC",
+        "ADA/ETH",
+        "DOT/ETH"
+    ],
+    "base_currencies": [
+        "USDT",
+        "BTC",
+        "ETH"
+    ],
+    "min_profit_threshold": 0.5,
+    "max_trade_amount": 100,
+    "scan_interval": 5,
+    "enable_trading": false,
+    "risk_management": {
+        "max_position_size": 1000,
+        "stop_loss_percentage": 2.0,
+        "max_daily_trades": 50,
+        "cooldown_period": 60
+    },
+    "notifications": {
+        "enable_alerts": true,
+        "min_profit_for_alert": 1.0,
+        "webhook_url": ""
+    }
+}
